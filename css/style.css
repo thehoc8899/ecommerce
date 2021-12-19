@@ -8,6 +8,18 @@ a{
 a{
     text-decoration: none;
 }
+@font-face{
+    font-family: svn-gilroy;
+    src: url(../font/svn-gilroy-medium.otf)
+}
+@font-face {
+    font-family: svn-gilroy;
+    src: url(../font/svn-gilroy-bold.otf);
+    font-weight: bold;
+}
+*{
+    font-family: svn-gilroy, Helvetica, sans-serif;
+}
 a:link{
     color:black;
 }
@@ -32,7 +44,7 @@ a:active{
 .system li::before{
     content: url(img/dautich.svg);
 }
-.about-info p:first-child {
+.about-info p:nth-child(2) {
     color: #27AE60;
 }
 .about-info p:last-child {
@@ -126,11 +138,20 @@ body{
 }
 .cookie{
     background: rgba(0, 0, 0, 0.8);
-    color:white;
+    color: white;
     position: fixed;
+    bottom: 50px;
+    width: 200px;
     left: 50px;
-    width: 390px;
 }
+.root {
+    position: relative;
+}
+
+body {
+    position: relative;
+}
+
 .picture-right{
     float:right;
 }
@@ -466,7 +487,16 @@ ul{
 .main-regis{
     padding-top: 180px;
 }
-
+.main-contact{
+    padding-top: 182px;
+}
+.icon-mess{
+    text-align: right;
+    padding: 30px 30px 30px;
+}
+.home-detail{
+    padding-top: 180px;
+}
 
 
 

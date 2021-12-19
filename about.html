@@ -8,97 +8,170 @@
     <title>Document</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
-
-
 <body>
     <header class="home-about">
-        <nav>
-            <a href="index.html" class="uppercase">Nordic Coder</a>
-            <a href="new">
-                <img src="img/new.png"></a>
-            <a href="shop">
-                <img src="img/shop.png"></a>
-            <a href="sale">
-                <img src="img/sale.png"></a>
-            <a href="login.html">
-                <img src="img/login.png"></a>
-            <div class="store">
-                <a href="store"><img src="img/store.png"></a>
-                <p>Con san pham</p>
+        <nav class="top-nav">
+            <div class="container flex-container justify-content-between">
+                <a href="index.html" class="uppercase">Nordic Coder</a>
+                <!-- Menu chinh -->
+                <ul class="flex-container">
+                    <li><a href="#">New</a></li>
+                    <li>
+                        <a href="#">Shop</a>
+                        <!-- Menu con -->
+                        <ul>
+                            <li><a href="#">Tops</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Jeans</a></li>
+                            <li><a href="#">Jackets</a></li>
+                            <li>
+                                <a href="#">Shoes</a>
+                                 <!-- Menu con -->
+                                <ul class="submenu">
+                                    <li><a href="#">A</a></li>
+                                    <li><a href="#">B</a></li>
+                                    <li><a href="#">C</a></li>
+                                    <li><a href="#">D</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li>
+                        <a href="#" class="store">
+                            <img src="img/store.png">
+                            <p>Con san pham</p>
+                        </a>
+                    </li>
+                </ul>
             </div>
+        </nav>
         <h1 class="h1-about">This is Nordic</h1>
     </header>
-    <p class="center">Amazing designs & collaborations, and as always 100% Organic &<br> Fairtrade certified cotton. Inspired by the
-        georgious Brasilian bucket, a<br> wonderful serenity has taken possession of my entire soul, like these<br>
-        these sweet mornings of spring
-        which.</p>
-    <div class="flex-container container"> 
-        <div class="statement">
-            <p><b>Vision</b></p>
-            <p>No one rejects, dislikes, or avoids pleasure itself, because it is<br> pleasure, but because those who do
-                not
-                know how to pursue<br> pleasure rationally encounter consequences.</p>
-            <p><i>Anna Wintour</i></p>
+    <main>
+        <p class="center">Amazing designs & collaborations, and as always 100% Organic &<br> Fairtrade certified cotton. Inspired by the
+            georgious Brasilian bucket, a<br> wonderful serenity has taken possession of my entire soul, like these<br>
+            these sweet mornings of spring
+            which.</p>
+        <div class="flex-container container"> 
+            <div class="statement">
+                <p><b>Vision</b></p>
+                <p>No one rejects, dislikes, or avoids pleasure itself, because it is<br> pleasure, but because those who do
+                    not
+                    know how to pursue<br> pleasure rationally encounter consequences.</p>
+                <p><i>Anna Wintour</i></p>
+            </div>
+            <div class="statement">
+                <p><b>Mission</b></p>
+                <p>But I must explain to you how all this mistaken idea of<br> denouncing pleasure and praising pain was
+                    born
+                    and I will<br> give you a complete account of the system, and expound<br> the actual teachings of the
+                    great
+                    explorer of the truth, the<br> master-builder
+                    of human happiness.</p>
+                <p><i>Coco Chanel</i></p>
+            </div>
         </div>
-        <div class="statement">
-            <p><b>Mission</b></p>
-            <p>But I must explain to you how all this mistaken idea of<br> denouncing pleasure and praising pain was
-                born
-                and I will<br> give you a complete account of the system, and expound<br> the actual teachings of the
-                great
-                explorer of the truth, the<br> master-builder
-                of human happiness.</p>
-            <p><i>Coco Chanel</i></p>
+        <div class="container">
+            <p>Some numbers about us</p>
+            <div class="flex-container">
+                <div class="about-us">
+                    <p>Established</p>
+                    <p>2018</p>
+                    <p>in New York</p>
+                </div>
+                <div class="about-us">
+                    <p>Employees</p>
+                    <p>120 +</p>
+                    <p>and counting</p>
+                </div>
+                <div class="about-us">
+                    <p>Brands</p>
+                    <p>2500 +</p>
+                    <p>and growing</p>
+                </div>
+                <div class="about-us">
+                    <p>Orders</p>
+                    <p>500 +</p>
+                    <p>each day</p>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <div class="flex-container">
-        <div class="about-us">
-            <p>Established</p>
-            <p>2018</p>
-            <p>in New York</p>
+        
+        <div class="container flex-container justify-content-around">
+            <img src="img/h.about.jpg" alt="anh">
+            <div class="get-in-touch">
+                <p>Creating a different shopping experience since 2018</p>
+                <p>Want to get in touch with us? A wonderful serenity has taken possession of my entire soul, like these sweet
+                mornings of spring which.</p>
+                <a href="contact.html" class="about">Contact us <img src="img/next-about.svg" alt="icon"></a>
+            </div>
         </div>
-        <div class="about-us">
-            <p>Employees</p>
-            <p>120 +</p>
-            <p>and counting</p>
+        <p>Why shop with Nordic</p>
+        <div class="flex-container">
+            <div class="about-info">
+                <img src="img/store-about.svg" alt="icon">
+                <p>Free International Shipping</p>
+                <p>On all orders over $100.00</p>
+            </div>
+            <div class="about-info">
+                <img src="img/return.svg" alt="icon">
+                <p>45 Days Return</p>
+                <p>Money back guarantee</p>
+            </div>
+            <div class="about-info">
+                <img src="img/block.svg" alt="icon">
+                <p>Secure Checkout</p>
+                <p>100% secured checkout process</p>
+            </div>
         </div>
-        <div class="about-us">
-            <p>Brands</p>
-            <p>2500 +</p>
-            <p>and growing</p>
+    </main>
+    <footer class="footer-index"> 
+        <div class="container flex-container">
+            <div>
+                <p>About us</p>
+                <ul class="all-list">
+                    <li><a href="#">Our company</a></li>
+                    <li><a href="#">Our history</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#">Store Locations</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>How can we help</p>
+                <ul class="all-list">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Order tracking</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">eturns & Refunds</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Shop</p>
+                <ul class="all-list">
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Accessorles</a></li>
+                    <li><a href="#">Jeans</a></li>
+                    <li><a href="#"> Jackets</a></li>
+                    <li><a href="#">Shoes</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Security system</p>
+                <ul class="system all-list">
+                    <li><img src="img/dautich.svg" alt="icon">PCI security standards</li>
+                    <li><img src="img/dautich.svg" alt="icon">Protect card owner</li>
+                    <li><img src="img/dautich.svg" alt="icon">Encrypted network</li>
+                </ul>
+            </div>
         </div>
-        <div class="about-us">
-            <p>Orders</p>
-            <p>500 +</p>
-            <p>each day</p>
-        </div>
-    </div>
-    <section class="container flex-container justify-content-around">
-        <img src="img/h.about.jpg" alt="anh">
-        <div class="get-in-touch">
-            <p>Creating a different shopping experience since 2018</p>
-            <p>Want to get in touch with us? A wonderful serenity has taken possession of my entire soul, like these sweet
-            mornings of spring which.</p>
-            <a href="contact.html" class="about">Contact us</a>
-        </div>
-    </section>
-    <h3>Why shop with Nordic</h3>
-    <div class="flex-container">
-        <div class="about-info">
-            <img src="img/store-about.svg">
-            <p>Free International Shipping</p>
-            <p>On all orders over $100.00</p>
-        </div>
-        <div class="about-info">
-            <p>45 Days Return</p>
-            <p>Money back guarantee</p>
-        </div>
-        <div class="about-info">
-            <p>Secure Checkout</p>
-            <p>100% secured checkout process</p>
-        </div>
-    </div>
+        <p>Copyright &copy;2020 Nordic Coder. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
